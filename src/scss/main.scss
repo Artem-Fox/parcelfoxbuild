@@ -1,0 +1,15 @@
+// ***** Общие стили *****
+@import "vendor";
+@import "mixins";
+@import "fonts";
+@import "vars";
+@import "settings";
+@import "common";
+
+// ***** Малые компоненты *****
+@import "components/header";
+@import "components/nav";
+@import "components/footer";
+
+// ***** Большие компоненты *****
+@import "components/section-hero";

@@ -1,0 +1,14 @@
+:root {
+  /* Ширина контента + контейнера */
+  --content-width: 1170px;
+  --container-padding: 15px;
+  --container-width: calc(
+    var(--content-width) + (var(--container-padding) * 2)
+  );
+
+  /* Шрифты */
+  --font-family-main: "FONT", sans-serif;
+
+  /* Цвета */
+  --color-text-main: #fff;
+}

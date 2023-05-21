@@ -1,0 +1,31 @@
+{
+  "name": "parcelfoxbuild",
+  "packageManager": "yarn@3.5.1",
+  "browserslist": [
+    "defaults"
+  ],
+  "namerSourceFolder": "src",
+  "namerContentHash": true,
+  "scripts": {
+    "start": "parcel './src/*.html' --dist-dir dist/dev",
+    "build": "parcel build './src/*.html' --dist-dir dist/prod --no-source-maps"
+  },
+  "devDependencies": {
+    "@namics/stylelint-bem": "^8.1.0",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/namer-default": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/utils": "^2.8.3",
+    "@pritesh9/parcel-namer-preserve-structure": "^1.2.0",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "postcss-scss": "^4.0.6",
+    "posthtml": "^0.16.6",
+    "posthtml-include": "^1.7.4",
+    "stylelint": "^15.6.2",
+    "stylelint-config-clean-order": "^5.0.1",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0"
+  }
+}

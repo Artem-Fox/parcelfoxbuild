@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-clean-order",
+    "stylelint-config-prettier-scss"
+  ],
+  "plugins": [
+    "stylelint-declaration-block-no-ignored-properties",
+    "@namics/stylelint-bem"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "font-family-name-quotes": null,
+    "property-no-vendor-prefix": null,
+    "import-notation": null,
+    "color-function-notation": null,
+    "alpha-value-notation": null,
+    "no-descending-specificity": null,
+    "value-keyword-case": null,
+    "media-feature-range-notation": null,
+    "plugin/declaration-block-no-ignored-properties": true,
+    "plugin/stylelint-bem-namics": {
+      "patternPrefixes": [],
+      "helperPrefixes": []
+    }
+  }
+}
