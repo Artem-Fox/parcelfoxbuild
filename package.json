@@ -1,6 +1,6 @@
 {
   "name": "parcelfoxbuild",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "browserslist": [
     "defaults"
   ],
@@ -12,17 +12,16 @@
   },
   "devDependencies": {
     "@namics/stylelint-bem": "^8.1.0",
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/namer-default": "^2.8.3",
-    "@parcel/transformer-sass": "^2.8.3",
-    "@parcel/utils": "^2.8.3",
+    "@parcel/config-default": "^2.9.1",
+    "@parcel/core": "^2.9.1",
+    "@parcel/transformer-sass": "^2.9.1",
     "@pritesh9/parcel-namer-preserve-structure": "^1.2.0",
-    "parcel": "^2.8.3",
-    "postcss": "^8.4.23",
+    "parcel": "^2.9.1",
+    "postcss": "^8.4.24",
     "postcss-scss": "^4.0.6",
     "posthtml": "^0.16.6",
     "posthtml-include": "^1.7.4",
-    "stylelint": "^15.6.2",
+    "stylelint": "^15.6.3",
     "stylelint-config-clean-order": "^5.0.1",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard-scss": "^9.0.0",
